@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lei's Lifestyle</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        header {
+            background: #0073e6;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #005bb5;
+        }
+
+        nav a {
+            color: white;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            background: #003f80;
+        }
+
+        .container {
+            padding: 2rem;
+        }
+
+        .section {
+            margin: 2rem 0;
+        }
+
+        .section h2 {
+            color: #005bb5;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1rem;
+        }
+
+        .card {
+            background: white;
+            border: 1px solid #ddd;
+            padding: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .card img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+
+        .card h3 {
+            margin: 0.5rem 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Lei's Lifestyle</h1>
+        <p>Explore my passions and inspirations!</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#travel">Travel</a>
+        <a href="#recipes">Recipes</a>
+        <a href="#outdoors">Outdoors</a>
+    </nav>
+
+    <div class="container">
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <p>Hi, I'm Lei! I'm passionate about travel, cooking, and spending time in nature. Join me as I share my experiences, tips, and inspirations!</p>
+        </section>
+
+        <section id="travel" class="section">
+            <h2>Travel Adventures</h2>
+            <div class="grid">
+                <div class="card">
+                    <img src="https://via.placeholder.com/300" alt="Seville">
+                    <h3>Seville, Spain</h3>
+                    <p>Discover the charm of Spain's Andalusia region and its vibrant culture.</p>
+                </div>
+                <div class="card">
+                    <img src="https://via.placeholder.com/300" alt="Kyoto">
+                    <h3>Kyoto, Japan</h3>
+                    <p>Immerse yourself in the tranquility of Kyoto's suburban temples and gardens.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="recipes" class="section">
+            <h2>Favorite Recipes</h2>
+            <div class="grid">
+                <div class="card">
+                    <img src="https://via.placeholder.com/300" alt="Latkes">
+                    <h3>Latkes</h3>
+                    <p>Golden, crispy latkes that are perfect for any occasion.</p>
+                </div>
+                <div class="card">
+                    <img src="https://via.placeholder.com/300" alt="Philanthropic Dishes">
+                    <h3>Save to Give Meals</h3>
+                    <p>Learn how to give back while enjoying delicious food.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="outdoors" class="section">
+            <h2>Outdoor Escapes</h2>
+            <p>Explore the Wissahickon Trail and other serene locations for your next walk.</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Lei's Lifestyle. All rights reserved.</p>
+    </footer>
+</body>
+</html>
